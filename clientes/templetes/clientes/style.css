@@ -1,0 +1,58 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #9923a8;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgb(230, 226, 226);
+            display: inline-block;<style>
+            display: none; /* Inicialmente, oculta os detalhes do cliente */
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+            list-style: none;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;<style>
+            /* O restante do seu estilo CSS permanece inalterado */
+        
+            .detalhes {
+                display: none; /* Inicialmente, oculta os detalhes do cliente */
+                margin-top: 10px;
+                font-size: 14px;
+                color: #555;
+            }
+        
+            .ativo .detalhes {
+                display: block; /* Exibe os detalhes quando a classe 'ativo' está presente no <li> */
+            }
+        </style>
+        
+            text-align: left;
+        }
+
+        li:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+    
